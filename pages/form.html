@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <title>EventBrite UI Kit</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="../index.html">EventBrite UI Kit</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./navbar.html">Navbars</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./banner.html">Banners</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./show.html">Show</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./form.html">Form <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./cards.html">Cards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./comments.html">Comments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./footer.html">Footer</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+
+    <h1 class="mb-5 text-center">FORM</h1>
+
+    <form>
+      <fieldset>
+        <legend>Authentification</legend>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter password">
+        </div>
+        <legend class="mt-5">Event Management</legend>
+        <div class="form-group">
+          <label for="exampleSelect1">City</label>
+          <select class="form-control" id="exampleSelect1">
+            <option>Paris</option>
+            <option>Dublin</option>
+            <option>Madrid</option>
+            <option>New York</option>
+            <option>Tokyo</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleSelect2">Duration</label>
+          <select multiple="" class="form-control" id="exampleSelect2">
+            <option>30</option>
+            <option>45</option>
+            <option>60</option>
+            <option>90</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleTextarea">Description</label>
+          <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputFile">Image</label>
+          <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+          <small id="fileHelp" class="form-text text-muted">Choose an image for your event.</small>
+        </div>
+        <fieldset class="form-group">
+          <legend>Choose one</legend>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+              Outdoor
+            </label>
+          </div>
+          <div class="form-check">
+          <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+              Indoor
+            </label>
+          </div>
+        </fieldset>
+        <fieldset class="form-group">
+          <legend>Choose multiple</legend>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" value="" checked="">
+              Fun guaranteed
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" value="">
+              Alcohol involved
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" value="">
+              Advance payment required
+            </label>
+          </div>
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </fieldset>
+    </form>
+
+  </div>
+
+  <div class="my-5">
+  </div>
+
+</body>
+</html>
